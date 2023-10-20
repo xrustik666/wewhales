@@ -1,0 +1,61 @@
+* {
+    border: 1px silver solid;
+}
+
+body {
+    background-color: silver;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    place-items: center;
+}
+
+.photo {
+    width: 60%;
+
+    background-color: black;
+
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+
+    height: 100%;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 70%);
+}
+
+.popup img {
+    position: fixed;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 60%;
+}
+
+.closePopup {
+    position: fixed;
+
+    top: 10px;
+    right: 30px;
+
+    padding: 0 40px 0 40px;
+
+    background-color: white;
+
+    cursor: pointer;
+}

@@ -1,109 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Responsive Landing Page Template With Flexbox</title>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Whales Watching</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
 	<header>
-		<nav>
-			<a href="#">Home</a></li>
-			<a href="#">Portflio</a></li>
-			<a href="#">Service</a></li>
-			<a href="#">About</a></li>
-			<a href="#">Contacts</a></li>
-		</nav>
+		<img class="logo" src="https://images2.imgbox.com/ae/80/MX2yXLQo_o.png">
+		
+		<div class="aut">
+			<span class="facebook">Facebook</span>
+			<span class="instagram">Instagram</span>
+		</div>
+
+		<div class="navigation">
+			<a href="#our-work">Our work</a>
+			<a href="#experience">Experience</a>
+			<a href="#subscribe">Contacts</a>
+		</div>
 	</header>
 
+	<main>
+		<section class="page whale-watching">
+			<h1>Whales Watching</h1>
+			<p>Make your dream real! With us you can see giant animals almost at arm's length</p>
 
-	<section class="hero">
-		<h1>Responsive Flexbox Template</h1>
-		<h3>A freebie by Tutorialzine.</h3>
-		<a href="http://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox/" class="btn">DOWNLOAD IT HERE</a>
-	</section>
-
-
-	<section class="our-work">
-		<h3 class="title">Some of our work</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
-		<hr>
-
-		<div class="photos">
-			<div class="photo"><img src="assets/img/coast.jpg"></div>
-			<div class="photo"><img src="assets/img/island.jpg"></div>
-			<div class="photo"><img src="assets/img/balloon.jpg"></div>
-			<div class="photo"><img src="assets/img/mountain.jpg"></div>
-		</div>
-	</section>
+			<button class="scrollToBegin">Back</button>
+		</section>
 	
+	
+		<section id="watch" class="page watch">
+			<h2 class="title">What you will see</h2>
+			<p>These photos were made by other adventurers. You don't have to look for opportunities to take photos like these. The whole journey will be similar to what you see here</p>
 
-	<section class="features">
-		<h3 class="title">Features and services</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
-		<hr>
+			<div class="photos">
+				<img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Humpback_stellwagen_edit.jpg" alt="whale 1">
+				<img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/5/58/Humpback_Whale%2C_blowholes.jpg" alt="whale 2">
+				<img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Sperm_whale_blowhole_Vincze.jpg" alt="whale 3">
+				<img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Whales_Bubble_Net_Feeding-edit1.jpg" alt="whale 4">
+				<img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Breach_W_Lighthouse.jpg" alt="whale 5">
+			</div>
 
-		<ul class="service">
-			<li>
-				<i class="fa fa-camera-retro"></i>
-				<h4>Photography</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-			</li>
-			<li>
-				<i class="fa fa-cubes"></i>
-				<h4>Web Development</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-			</li>
-			<li>
-				<i class="fa fa-newspaper-o"></i>
-				<h4>Content Editing</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-			</li>
-		</div>
-	</section>
+			<div class="pop-up">
+				<span class="closePopup">&times;</span>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Humpback_stellwagen_edit.jpg">
+			</div>
+		</section>
+		
+	
+		<section id="experience" class="page experience">
+			<h2 class="title">Your experience</h2>
+			<p>Your saturated experience is our main responsibility. We can guarantee that your trip will be something out of ordinary. This is only a part of what awaits you on your journey</p>
+			<hr>
+	
+			<div class="points">
+				<div>
+					<h3>Watching the biggest animals in the world</h3>
+					<p>We give you a guarantee that you will see them. This is something you will never forget. Huge, intelligent living creatures are waiting for you!</p>
+				</div>
+				
+				<div>
+					<h3>Unity with nature</h3>
+					<p>3 days with nature. No internet or household chores. Total detoxification. This is all you need to reload your mind</p>
+				</div>
+	
+				<div>
+					<h3>Visiting uninhabited island in the ocean</h3>
+					<p>On our way to whales we will visit an island that was never been inhabited. We will spend one night there. Cave instead of house. Fire instead of light. Feel the wildness!</p>
+				</div>
+			</div>
+		</section>
+	
+	
+		<section id="subscribe" class="page subscribe">
+			<h2 class="title">Don't lose us!</h2>
 
-
-	<section class="reviews">
-		<h3 class="title">What others say:</h3>
-
-		<p class="quote">Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-		<p class="author">— Patrick Farrell</p>
-
-		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
-		<p class="author">— George Smith</p>
-
-		<p class="quote">Donec commodo dolor augue, vitae faucibus tortor tincidunt in. Aliquam vitae leo quis mi pulvinar ornare. Integer eu iaculis metus.</p>
-		<p class="author">— Kevin Blake</p>
-	</section>
-
-
-	<section class="contact">
-		<h3 class="title">Join our newsletter</h3>	
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
-		<hr>
-
-		<form>
-			<input type="email" placeholder="Email">
-			<a href="#" class="btn">SUBSCRIBE NOW</a>
-		</form>
-	</section>
+			<p>Sometimes we publish some news. If you are interested, please subscribe</p>
+			
+	
+			<form>
+				<input type="email" placeholder="Email">
+				<span class="subscribe-button">STAY IN TOUCH</span>
+			</form>
+		</section>
+	</main>
 
 	<footer>
-		<ul>
-			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-github-square""></i></a></li>
-		</ul>
-		<p>Made by <a href="http://tutorialzine.com/" target="_blank">tutorialzine</a>. images courtesy to <a href="http://unsplash.com/" target="_blank">unsplash</a>.</p>
-		<p>No attribution required. you can remove this footer.</p>
+		<p>Eco tourism with weWhales is the right way to discover the planet. The world is open. Don't hesitate</p>
+		<p>If you have questions, please write to <a href="mailto:weWhales@wewhales.com">wewhales@wewhales.com</a></p>
 	</footer>
+
+	<script src = "script.js"></script>
 
 </body>
 
