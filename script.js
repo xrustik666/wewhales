@@ -14,9 +14,9 @@ scrollToBegin.addEventListener("click", function() {
 });
 
 /* --------2. Photo gallery-------- */
-// This variable has access to each photo
+// This variable contains access to each photo
 let photos = document.querySelectorAll(".photo");
-// This variable has access to "cross" (close button)
+// This variable contains "cross" (close button)
 let closePopup = document.querySelector(".closePopup");
 
 // Using array, we iterate through each photo
